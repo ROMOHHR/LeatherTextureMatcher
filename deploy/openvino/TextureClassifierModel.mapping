@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="input" output_port_id="input" />
+		<IR name="input" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_193" output_port_id="onnx::Conv_193" />
+		<IR name="onnx::Conv_193" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/conv1/Conv" output_port_id="/conv1/Conv_output_0" />
+		<IR name="/conv1/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/relu/Relu" output_port_id="/relu/Relu_output_0" />
+		<IR name="/relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="/maxpool/MaxPool" output_port_id="/maxpool/MaxPool_output_0" />
+		<IR name="/maxpool/MaxPool" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_196" output_port_id="onnx::Conv_196" />
+		<IR name="onnx::Conv_196" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer1/layer1.0/conv1/Conv" output_port_id="/layer1/layer1.0/conv1/Conv_output_0" />
+		<IR name="/layer1/layer1.0/conv1/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer1/layer1.0/relu/Relu" output_port_id="/layer1/layer1.0/relu/Relu_output_0" />
+		<IR name="/layer1/layer1.0/relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_199" output_port_id="onnx::Conv_199" />
+		<IR name="onnx::Conv_199" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer1/layer1.0/conv2/Conv" output_port_id="/layer1/layer1.0/conv2/Conv_output_0" />
+		<IR name="/layer1/layer1.0/conv2/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer1/layer1.0/Add" output_port_id="/layer1/layer1.0/Add_output_0" />
+		<IR name="/layer1/layer1.0/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer1/layer1.0/relu_1/Relu" output_port_id="/layer1/layer1.0/relu_1/Relu_output_0" />
+		<IR name="/layer1/layer1.0/relu_1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_202" output_port_id="onnx::Conv_202" />
+		<IR name="onnx::Conv_202" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer1/layer1.1/conv1/Conv" output_port_id="/layer1/layer1.1/conv1/Conv_output_0" />
+		<IR name="/layer1/layer1.1/conv1/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer1/layer1.1/relu/Relu" output_port_id="/layer1/layer1.1/relu/Relu_output_0" />
+		<IR name="/layer1/layer1.1/relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_205" output_port_id="onnx::Conv_205" />
+		<IR name="onnx::Conv_205" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer1/layer1.1/conv2/Conv" output_port_id="/layer1/layer1.1/conv2/Conv_output_0" />
+		<IR name="/layer1/layer1.1/conv2/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer1/layer1.1/Add" output_port_id="/layer1/layer1.1/Add_output_0" />
+		<IR name="/layer1/layer1.1/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer1/layer1.1/relu_1/Relu" output_port_id="/layer1/layer1.1/relu_1/Relu_output_0" />
+		<IR name="/layer1/layer1.1/relu_1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_208" output_port_id="onnx::Conv_208" />
+		<IR name="onnx::Conv_208" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer2/layer2.0/conv1/Conv" output_port_id="/layer2/layer2.0/conv1/Conv_output_0" />
+		<IR name="/layer2/layer2.0/conv1/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer2/layer2.0/relu/Relu" output_port_id="/layer2/layer2.0/relu/Relu_output_0" />
+		<IR name="/layer2/layer2.0/relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_211" output_port_id="onnx::Conv_211" />
+		<IR name="onnx::Conv_211" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer2/layer2.0/conv2/Conv" output_port_id="/layer2/layer2.0/conv2/Conv_output_0" />
+		<IR name="/layer2/layer2.0/conv2/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_214" output_port_id="onnx::Conv_214" />
+		<IR name="onnx::Conv_214" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer2/layer2.0/downsample/downsample.0/Conv" output_port_id="/layer2/layer2.0/downsample/downsample.0/Conv_output_0" />
+		<IR name="/layer2/layer2.0/downsample/downsample.0/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer2/layer2.0/Add" output_port_id="/layer2/layer2.0/Add_output_0" />
+		<IR name="/layer2/layer2.0/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer2/layer2.0/relu_1/Relu" output_port_id="/layer2/layer2.0/relu_1/Relu_output_0" />
+		<IR name="/layer2/layer2.0/relu_1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_217" output_port_id="onnx::Conv_217" />
+		<IR name="onnx::Conv_217" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer2/layer2.1/conv1/Conv" output_port_id="/layer2/layer2.1/conv1/Conv_output_0" />
+		<IR name="/layer2/layer2.1/conv1/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer2/layer2.1/relu/Relu" output_port_id="/layer2/layer2.1/relu/Relu_output_0" />
+		<IR name="/layer2/layer2.1/relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_220" output_port_id="onnx::Conv_220" />
+		<IR name="onnx::Conv_220" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer2/layer2.1/conv2/Conv" output_port_id="/layer2/layer2.1/conv2/Conv_output_0" />
+		<IR name="/layer2/layer2.1/conv2/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer2/layer2.1/Add" output_port_id="/layer2/layer2.1/Add_output_0" />
+		<IR name="/layer2/layer2.1/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer2/layer2.1/relu_1/Relu" output_port_id="/layer2/layer2.1/relu_1/Relu_output_0" />
+		<IR name="/layer2/layer2.1/relu_1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_223" output_port_id="onnx::Conv_223" />
+		<IR name="onnx::Conv_223" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer3/layer3.0/conv1/Conv" output_port_id="/layer3/layer3.0/conv1/Conv_output_0" />
+		<IR name="/layer3/layer3.0/conv1/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer3/layer3.0/relu/Relu" output_port_id="/layer3/layer3.0/relu/Relu_output_0" />
+		<IR name="/layer3/layer3.0/relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_226" output_port_id="onnx::Conv_226" />
+		<IR name="onnx::Conv_226" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer3/layer3.0/conv2/Conv" output_port_id="/layer3/layer3.0/conv2/Conv_output_0" />
+		<IR name="/layer3/layer3.0/conv2/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_229" output_port_id="onnx::Conv_229" />
+		<IR name="onnx::Conv_229" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer3/layer3.0/downsample/downsample.0/Conv" output_port_id="/layer3/layer3.0/downsample/downsample.0/Conv_output_0" />
+		<IR name="/layer3/layer3.0/downsample/downsample.0/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer3/layer3.0/Add" output_port_id="/layer3/layer3.0/Add_output_0" />
+		<IR name="/layer3/layer3.0/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer3/layer3.0/relu_1/Relu" output_port_id="/layer3/layer3.0/relu_1/Relu_output_0" />
+		<IR name="/layer3/layer3.0/relu_1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_232" output_port_id="onnx::Conv_232" />
+		<IR name="onnx::Conv_232" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer3/layer3.1/conv1/Conv" output_port_id="/layer3/layer3.1/conv1/Conv_output_0" />
+		<IR name="/layer3/layer3.1/conv1/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer3/layer3.1/relu/Relu" output_port_id="/layer3/layer3.1/relu/Relu_output_0" />
+		<IR name="/layer3/layer3.1/relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_235" output_port_id="onnx::Conv_235" />
+		<IR name="onnx::Conv_235" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer3/layer3.1/conv2/Conv" output_port_id="/layer3/layer3.1/conv2/Conv_output_0" />
+		<IR name="/layer3/layer3.1/conv2/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer3/layer3.1/Add" output_port_id="/layer3/layer3.1/Add_output_0" />
+		<IR name="/layer3/layer3.1/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer3/layer3.1/relu_1/Relu" output_port_id="/layer3/layer3.1/relu_1/Relu_output_0" />
+		<IR name="/layer3/layer3.1/relu_1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_238" output_port_id="onnx::Conv_238" />
+		<IR name="onnx::Conv_238" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer4/layer4.0/conv1/Conv" output_port_id="/layer4/layer4.0/conv1/Conv_output_0" />
+		<IR name="/layer4/layer4.0/conv1/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer4/layer4.0/relu/Relu" output_port_id="/layer4/layer4.0/relu/Relu_output_0" />
+		<IR name="/layer4/layer4.0/relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_241" output_port_id="onnx::Conv_241" />
+		<IR name="onnx::Conv_241" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer4/layer4.0/conv2/Conv" output_port_id="/layer4/layer4.0/conv2/Conv_output_0" />
+		<IR name="/layer4/layer4.0/conv2/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_244" output_port_id="onnx::Conv_244" />
+		<IR name="onnx::Conv_244" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer4/layer4.0/downsample/downsample.0/Conv" output_port_id="/layer4/layer4.0/downsample/downsample.0/Conv_output_0" />
+		<IR name="/layer4/layer4.0/downsample/downsample.0/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer4/layer4.0/Add" output_port_id="/layer4/layer4.0/Add_output_0" />
+		<IR name="/layer4/layer4.0/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer4/layer4.0/relu_1/Relu" output_port_id="/layer4/layer4.0/relu_1/Relu_output_0" />
+		<IR name="/layer4/layer4.0/relu_1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_247" output_port_id="onnx::Conv_247" />
+		<IR name="onnx::Conv_247" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer4/layer4.1/conv1/Conv" output_port_id="/layer4/layer4.1/conv1/Conv_output_0" />
+		<IR name="/layer4/layer4.1/conv1/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer4/layer4.1/relu/Relu" output_port_id="/layer4/layer4.1/relu/Relu_output_0" />
+		<IR name="/layer4/layer4.1/relu/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_250" output_port_id="onnx::Conv_250" />
+		<IR name="onnx::Conv_250" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="/layer4/layer4.1/conv2/Conv" output_port_id="/layer4/layer4.1/conv2/Conv_output_0" />
+		<IR name="/layer4/layer4.1/conv2/Conv" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer4/layer4.1/Add" output_port_id="/layer4/layer4.1/Add_output_0" />
+		<IR name="/layer4/layer4.1/Add" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/layer4/layer4.1/relu_1/Relu" output_port_id="/layer4/layer4.1/relu_1/Relu_output_0" />
+		<IR name="/layer4/layer4.1/relu_1/Relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="/avgpool/GlobalAveragePool" output_port_id="/avgpool/GlobalAveragePool_output_0" />
+		<IR name="/avgpool/GlobalAveragePool" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="/Flatten" output_port_id="/Flatten_output_0" />
+		<IR name="/Flatten" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="fc.weight" output_port_id="fc.weight" />
+		<IR name="fc.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="output" output_port_id="output" />
+		<IR name="output" output_port_id="2" />
+	</map>
+</mapping>
